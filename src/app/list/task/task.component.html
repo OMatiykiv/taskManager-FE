@@ -1,0 +1,12 @@
+<div class="task">
+  <h4>{{task['title']}}</h4>
+  <div class="info">
+    <p><b>Invited by: </b>{{task['invited']}}</p>
+    <p><b>Status: </b>{{task['status']}}</p>
+    <div class="btnHolder">
+      <button class="taskBtn" (click)="toEdit(task)">Edit task</button> 
+      <button class="taskBtn" (click)="toShare(task)">Share</button> 
+    </div>
+  </div>
+  <p>{{task['description']}}</p>
+</div>

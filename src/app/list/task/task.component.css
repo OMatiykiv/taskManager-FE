@@ -1,0 +1,39 @@
+.task {
+    margin: 15px 0;
+    background-color: rgb(244, 248, 253);
+    border: 1px solid gray;
+    border-left: 8px solid rgb(25, 119, 211);
+}
+h4 {
+    padding: 0 2vw;
+    margin-bottom: 0;
+    font-size: 2vw;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+}
+p {
+    margin: 0;
+    padding: 1vh 2vw;
+    font-size: 1.5vw;
+}
+.btnHolder {
+    padding: 1vh 2vw; 
+    margin-right: 2vw;
+    margin-left: auto;
+    display:inline-block;
+}
+button {
+    margin-right: 2vw;
+    margin-left: auto;
+    padding: 0.5vh 0.25vw;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 1.2vw;
+}
+button:hover {
+    transform: translate(2px, 2px);
+}

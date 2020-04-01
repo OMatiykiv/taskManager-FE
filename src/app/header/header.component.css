@@ -1,0 +1,47 @@
+header {
+    background-color: darkblue;
+    color: #fff;
+    padding: 0 16%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .burger-menu {
+    display: none;
+  }
+  h1 {
+    padding: 3vmin;
+    margin: 0;
+    font-size: 3vw;
+    text-align: center;
+    display:block;
+  
+  }
+  nav {
+    display:block;
+  }
+  a {
+    display:inline-block;
+    padding: 4vh 1vw;                  
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2vw;
+  }
+  a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+    .burger-menu {
+      display: block;
+      margin: 1vh auto;
+      color: #fff;
+    }
+    nav {
+      display: none;
+    }
+  }

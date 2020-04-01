@@ -1,0 +1,9 @@
+<a routerLink='/new'>
+  <button class="addNewBtn">Add new task</button>
+</a>
+<h3>List of the tasks</h3>
+<app-task
+  *ngFor="let task of list"
+  [task] = "task">
+</app-task>
+<h6 id="warning-alert"></h6>

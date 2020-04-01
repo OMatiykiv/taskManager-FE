@@ -1,0 +1,20 @@
+<h2>Sign Up</h2>
+<div class="container">
+  <form #postForm="ngForm" (ngSubmit)="register(postForm.value)">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" ngModel name="name"/>
+    </div>
+    <div class="form-group">
+      <label for="mail">Mail</label>
+      <input type="text" id="mail" ngModel name="mail"/>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" ngModel name="password" autocomplete="on"/>
+    </div>
+    <button type="submit">Sign In</button>
+  </form>
+</div>
+<h5>Have an account? <a routerLink='/login'>Login</a></h5>
+<h6 id="warning-alert"></h6>

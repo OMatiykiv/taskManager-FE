@@ -1,0 +1,13 @@
+<h2>Share task</h2>
+<div class="container">
+  <form #putForm="ngForm" (ngSubmit)="shareTask(putForm.value)">
+    <div class="form-group">
+      <input type="text" class="form-control" id="mail" required [(ngModel)]="mail" name="mail" placeholder="Mail of the invited user"/>
+    </div>
+    <div class="btnHolder">
+      <a routerLink='/list'><button class="cancelBtn">Cancel</button></a>
+      <button class="submitBtn" type="submit">Invite</button>
+    </div>
+  </form>
+</div>
+<h6 id="warning-alert"></h6>

@@ -1,0 +1,58 @@
+h2 {
+  font-size: 3vw;
+  text-align: center
+}
+.container {
+  padding: 0 0 5vh 0;
+  display: block;
+}
+.form-group {
+  display: block;
+  width: 100%;
+  margin: 5vh 0;
+}
+.form-control {
+  width: 100%;
+  line-height: 1.5;
+  padding: 0.5vh 1vw;
+  font-size: 1.5vw;
+  border: 2px solid blue;
+}
+.btnHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+a {
+  text-decoration: none
+}
+button {
+  font-size: 2vw;
+  display: block;
+  color: white;
+  border-radius: 5px;
+  padding: 1vh 2vw;
+}
+.submitBtn {
+  background-color: green;
+  border: 1px solid green;
+}
+.cancelBtn {
+  background-color: red;
+  border: 1px solid red;
+}
+button:hover {
+  transform: translate(2px, 2px);
+}
+#warning-alert {
+  margin: 0 -8vw;
+  font-size: 4vw;
+  text-align: center;
+  position: absolute;
+  background-color: red;
+  color: white;
+  top: 15vh;
+  width: 100%;
+  display: none;
+}
