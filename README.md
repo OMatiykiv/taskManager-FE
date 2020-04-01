@@ -1,5 +1,12 @@
 # TaskManager
 
+1. This is a simple Front End part of an app that allows you to save, update and share task with other users which register in system.
+2. Here is link for [Back End](https://github.com/OMatiykiv/taskManager-BE) part of this app.
+3. Here is link to [server](https://task-manager-application-share.herokuapp.com) on which the BE part is running.
+4. In this app was used MongoDB Atlas as database.
+
+## Project
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
 ## Development server
